@@ -11,12 +11,16 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
+    <link
+      href="https://db.onlinewebfonts.com/c/7d460b18433753a097e5bc2bad7c8dd9?family=Norse+Bold"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <div class="page-container">
       <div class="img-container">
         <div class="odin-container">
-          <img src="#" alt="Odin-icon" />
+          <img src="./assets/images/odin-lined.png" alt="Odin-icon" />
           <h1>Odin</h1>
         </div>
       </div>
@@ -72,6 +76,7 @@
                   name="phone-number"
                   required
                   placeholder="+1 8298122834"
+                  pattern="^(\+\d{1,2}\s)?\(?\d{3}\)?[\s.-]\d{3}[\s.-]\d{4}$"
                 />
               </div>
 
@@ -98,9 +103,9 @@
               </div>
             </div>
           </div>
+          <button type="submit">Create Account</button>
+          <p>Already have an account? <span>Log in</span></p>
         </div>
-        <button type="submit">Create Account</button>
-        <p>Already have an account? <span>Log in</span></p>
       </form>
     </div>
   </body>
