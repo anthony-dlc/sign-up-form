@@ -1,0 +1,17 @@
+@font-face {
+  font-family: "Norse bold";
+  src: url("../assets/fonts/Norse.otf") format("otf");
+  font-style: normal;
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Norse bold";
+  src: url("../assets/fonts/Norsebold.otf") format("otf");
+  font-style: normal;
+  font-weight: 600;
+}
+
+/* START STYLING FROM HERE */
+
+
